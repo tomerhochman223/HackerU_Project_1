@@ -1,0 +1,33 @@
+.bgc1{
+    background-color: $colorY;
+    top: 100px;
+}
+
+#current{
+    color: $colorW !important;
+}
+
+nav #logo1{
+    position: fixed;
+    width: 100px;
+    top: 0px;
+    left: 0px;
+    z-index: 999999;
+}
+
+.container-fluid, #navBar{
+    background-color: $colorP !important;
+    position: fixed;
+    width: 100% !important;
+    z-index: 99999;
+}
+
+nav a{
+    color: $colorG !important;
+    font-family: $headerFont;
+    top: 10px;
+}
+
+.navbar-brand{
+    padding-left: 100px;
+}

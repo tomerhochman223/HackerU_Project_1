@@ -1,0 +1,46 @@
+footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 200px 50px;
+    text-align: center;
+    padding-top: 10px;
+    background-color: $colorP;
+
+    div ul {
+        padding: 0;
+    }
+
+    div ul li {
+        list-style:none;
+    }
+
+    div ul li a {
+        text-decoration: none;
+        line-height: 30px;
+        color: $colorG;
+    }
+
+    div ul li a:hover {
+        color: $colorW;
+    }
+}
+
+.logo {
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+.internalLinks {
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+
+.socialLinks {
+    grid-row: 1/2;
+    grid-column: 3/4;
+}
+
+.copyright {
+    grid-row: 2/3;
+    grid-column: 1 / span 4;
+}

@@ -1,0 +1,17 @@
+.mediaContainer{
+    background-color: $colorP;
+    display: flexbox;
+    height: 100%;
+    justify-content: space-around;
+    padding-top: 100px;
+    
+    .mediaAlbum{
+        text-align: center;
+    }
+
+    img{
+        width: 200px;
+        padding: 10px;
+        cursor: pointer;
+    }
+}

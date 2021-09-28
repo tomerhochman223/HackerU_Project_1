@@ -1,0 +1,35 @@
+.faqContainer{
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: $colorG;
+}
+
+.faqHeader{
+    font-family: $secondFont;
+    color: $colorY;
+    font-size: 2em;
+}
+
+.colContainer{
+    background-color: $colorP;
+    border-radius: 10px;
+}
+
+.faqList{
+    list-style: none;
+}
+
+.headerText{
+    font-family: $headerFont;
+}
+
+.faqIntro{
+    font-family: $textFont;
+    color: $colorB;
+}
+
+.faqText{
+    font-family: $textFont;
+    color: $colorB;
+}

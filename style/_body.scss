@@ -1,0 +1,27 @@
+.indexLinks{
+    background-color: $colorP;
+    margin: 10px;
+    -webkit-box-shadow: inset 0px 0px 15px 6px #000000;
+    box-shadow: inset 0px 0px 15px 6px #000000;
+    padding: 30px;
+
+    a{
+        color: $colorB;
+        &:hover{
+            color: $colorW;
+        }
+    }
+}
+
+.cardWrapper{
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 2fr);
+    margin: auto;
+}
+
+.card{
+    margin: 10px;
+    // float: left;
+}

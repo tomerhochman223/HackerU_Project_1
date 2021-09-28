@@ -1,0 +1,40 @@
+.formContainer{
+    margin-right: 20%;
+    margin-left: 20%;
+    background-color: $colorP;
+    padding: 50px;
+    text-align: center; 
+
+    input[type="text"], input[type="email"]{
+        border-radius: 10px;
+        width: 50%;
+        border: solid black 1px;
+        padding: 5px;
+    }
+
+    textarea {
+        border-radius: 10px;
+        width: 70%;
+        border: solid black 1px;
+        padding: 5px;
+    }
+
+    label{
+        color: $colorB;
+        font-weight: bold;
+    }
+
+    input[type="submit"]{
+        padding: 5px;
+        width: 150px;
+        height: 50px;
+        border-radius: 20px;
+        color: $colorW;
+        background-color: $colorB;
+
+        &:hover{
+            background-color: rgb(73, 73, 73);
+        }
+
+    }
+}

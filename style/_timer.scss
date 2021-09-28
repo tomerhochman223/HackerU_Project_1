@@ -1,0 +1,45 @@
+.countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 150px;
+    font-family: "Righteous", cursive;
+    position: relative;
+    background-color: $colorY;
+    position: fixed;
+    margin-top: 55px;
+    right: 0;
+    border-radius: 0 0 10px 10px;
+    border: 2px $colorP solid;
+    z-index: 9999;
+}
+
+#timerText{
+    position: absolute;
+    top: 5px;
+    font-family: $secondFont;
+}
+
+.countdown-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: linear-gradient(0deg, #000 0%, #444 100%);
+    color: #fff;
+    font-size: 26px;
+    border-radius: 10px;
+    margin: 0 4px;
+    min-width: 75px;
+    min-height: 85px;
+    z-index: 2;
+}
+.countdown-item span:nth-child(1) {
+    height: 33px;
+}
+.countdown-item span:nth-child(2) {
+    font-size: 16px;
+}
+
+
